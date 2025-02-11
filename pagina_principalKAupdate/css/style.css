@@ -1,0 +1,209 @@
+ul {
+    list-style: none;
+}
+
+.tarefas{
+    box-sizing: border-box;
+    width: 1024px;
+    border: 1px solid var(--cinza-tundora);
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.descricao_tarefa{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+h2 {
+    background-color: rgb(255, 255, 255);
+    border-right: 1px solid #5c5c5c;
+    padding-right: 16px;
+}
+
+.etiqueta, .etiqueta__prioridade {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--cinza-nobel);
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: var(--cinza-nobel);
+
+}
+
+.etiquetas_geral{
+    display: flex;
+    gap: 8px;
+}
+
+.etiqueta__prioridade{
+    border: none;
+    color: var(--branco);
+}
+
+
+.etiqueta--alta{
+    background-color: var(--vermelho); /* cor vermelha */
+}
+
+.etiqueta--media{
+    background-color: var(--amarelo); /* cor amarela */
+}
+
+.etiqueta--baixa{
+    background-color: var(--verde); /* cor verde */
+}
+
+/* Estilo do formulário
+
+       
+.container {
+    width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--cinza-nobel);
+}
+
+.form-group {
+    margin-bottom: 15px;
+   
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+input, select{
+    width: 457px;
+
+    padding: 8px;
+    border: 1px solid var(--cinza-nobel);
+    border-radius: 8px;
+}
+textarea {
+    width: 457px;
+    height: 80px;
+    padding: 8px;
+    border: 1px solid var(--cinza-nobel);
+    border-radius: 8px;
+    resize: vertical;
+}
+
+
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-limpar {
+    width: 169px;
+    height: 33px;
+    background: white;
+    border: 1px solid var(--cinza-tundora);
+    color: black;
+}
+
+.btn-adicionar {
+    background: black;
+    color: white;
+}
+ */
+ body {
+  width: 1024px;
+  height: 370px;
+  margin: 0;
+  padding: 40px;
+}
+
+form {
+  border: 1px solid var(--cinza-tundora);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.form-group > div {
+  flex: 1;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}

@@ -1,0 +1,15 @@
+:root{
+
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --cinza: #9B9B9B;
+    --cinza-escuro: #181818;
+    --cinza-tundora: #4A4A4A;
+    --cinza-nobel: #B6B6B6;
+
+    --vermelho: #cf3f3f;
+    --amarelo: #FFBD3D;
+    --verde: #72C240;
+
+    --fonte__poppins: 'Poppins', sans-serif;
+}
